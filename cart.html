@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:ital,wght@0,400;0,600;1,200&display=swap" rel="stylesheet">
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="ty.css">
+    <title>Ants Store</title>
+</head>
+
+<body>
+    <div class="container card-headerz">
+        <div class="row mt-5 text-center">
+            <div class="col mb-3">
+                <h3>
+                    Your Cart
+                </h3>
+                <p>
+                    Pastikan barang anda terbayar lunas
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- breadcrumb awal -->
+    <div class="container mt-5">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb cart cart-breadcrumb">
+                <li class="breadcrumb-item"><a href="/index.html">Category</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Single Product</li>
+            </ol>
+        </nav>
+    </div>
+    <!-- breadcrumb akhir -->
+
+    <!-- checkout awal -->
+    <section class="checkout">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-6">
+                    <h4 class="mb-4">Your Items</h4>
+                    <div class="row mb-4">
+                        <div class="col-1">
+                            <img src="asset/elements/logo_small.png" alt="checkout">
+                        </div>
+                        <div class="col-4 offset-1">
+                            <h5 class="m-0">Jeans Pubb</h5>
+                            <p class="m-0" style="color: #b7b7b7;">IDR. 190.300</p>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-jml btn-sm"> <i class="fa fa-minus" aria-hidden="true"></i> </button>
+                            <span class="mx-2">20</span>
+                            <button type="button" class="btn btn-sm btn-success"> <i class="fa fa-plus" aria-hidden="true"></i> </button>
+                        </div>
+                        <div class="col-2 text-right">
+                            <button type="button" class="btn btn-sm btn-danger"><i class="fas fa-times-circle"></i> </button>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-1">
+                            <img src="asset/elements/logo_small.png" alt="checkout">
+                        </div>
+                        <div class="col-4 offset-1">
+                            <h5 class="m-0">Jeans Pubb</h5>
+                            <p class="m-0" style="color: #b7b7b7;">IDR. 190.300</p>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-jml btn-sm"> <i class="fa fa-minus" aria-hidden="true"></i> </button>
+                            <span class="mx-2">20</span>
+                            <button type="button" class="btn btn-sm btn-success"> <i class="fa fa-plus" aria-hidden="true"></i> </button>
+                        </div>
+                        <div class="col-2 text-right">
+                            <button type="button" class="btn btn-sm btn-danger"><i class="fas fa-times-circle"></i> </button>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-1">
+                            <img src="asset/elements/logo_small.png" alt="checkout">
+                        </div>
+                        <div class="col-4 offset-1">
+                            <h5 class="m-0">Jeans Pubb</h5>
+                            <p class="m-0" style="color: #b7b7b7;">IDR. 190.300</p>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-jml btn-sm"> <i class="fa fa-minus" aria-hidden="true"></i> </button>
+                            <span class="mx-2">20</span>
+                            <button type="button" class="btn btn-sm btn-success"> <i class="fa fa-plus" aria-hidden="true"></i> </button>
+                        </div>
+                        <div class="col-2 text-right">
+                            <button type="button" class="btn btn-sm btn-danger"><i class="fas fa-times-circle"></i> </button>
+                        </div>
+                    </div>
+
+
+                    <h4 class="mb-5" style="margin-top: 100px;">Your Address</h4>
+                    <form class="row g-3 mb-5">
+                        <div class="col">
+                            <label for="name" class="form-label">Nama</label>
+                            <input type="text" class="form-control" id="name" placeholder="Nama depan">
+                        </div>
+                        <div class="col">
+                            <label for="name2" class="form-label">Nama</label>
+                            <input type="text" class="form-control" id="name2" placeholder="Nama Belakang">
+                        </div>
+                        <div class="col-12">
+                            <label for="address" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="address" placeholder="Masukan alamat">
+                        </div>
+                        <div class="col-12">
+                            <label for="address2" class="form-label">Address 2</label>
+                            <input type="text" class="form-control" id="address2" placeholder="Masukan Alamat Tambahan">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">Kota</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputState" class="form-label">Provinsi</label>
+                            <select id="inputState" class="form-select">
+                                <option selected>Pilih Provinsi</option>
+                                <option>Jakarta</option>
+                                <option>Jawa Barat</option>
+                                <option>Jawa Tengah</option>
+                                <option>Jawa Timur</option>
+                                <option>Yogyakarta</option>
+                                <option>Bali</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="inputZip" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card rounded-0 checkout-detail">
+                        <div class="card-body">
+                            <h5 class="card-title mb-3">Informasi Biaya</h5>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Jeans Papp</h6>
+                                    <small style="color: #b7b7b7;">2 Items</small>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align-self-center text-success">IDR. 360.600</h6>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Jeans Papp</h6>
+                                    <small style="color: #b7b7b7;">2 Items</small>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align-self-center text-success">IDR. 360.600</h6>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Courier</h6>
+                                    <small style="color: #b7b7b7;">JNT Express</small>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align-self-center text-success">IDR. 36.600</h6>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Tax</h6>
+                                    <small style="color: #b7b7b7;">PPH</small>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align-self-center text-success">IDR. 6.600</h6>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Eid Promo</h6>
+                                    <small style="color: #b7b7b7;">10% OFF</small>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align-self-center text-success">IDR. 106.600</h6>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Total Harga</h6>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align-self-center text-primary">IDR. 590.600</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col">
+                            <button type="button" class="btn btn-jml btn-block text-black">Cancel</button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-warning btn-block text-white" data-toggle="modal" data-target="#successModal">Checkout</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- checkout akhir -->
+
+
+    <!-- modal success awal -->
+    <!-- Modal -->
+    <div class="modal fade checkout-modal-success" id="successModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <img src="img/brand/1.png" width="400" height="400" class="mb-5">
+                    <h3>Checkout berhasil</h3>
+                    <p>Terimakasih telah belanja di <span>Ants Store</span> <br> Anda akan mendapatkan barang <br> anda dalam beberapa hari</p>
+                    <a class="btn btn-jml text-black mt-3 mb-5" href="/index.html" role="button">Home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal success akhir -->
+
+    <footer class="border-top p-5 mt-5">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-1">
+                    <a href=""><img src="asset/elements/logo_small.png" alt=""></a>
+                </div>
+                <div class="col-8 text-right">
+                    <a href=""><img src="asset/elements/001-facebook.png" alt="Facebook"></a>
+                    <a href=""><img src="asset/elements/002-twitter.png" alt="twitter"></a>
+                    <a href=""><img src="asset/elements/003-instagram.png" alt="instagram"></a>
+                </div>
+            </div>
+            <div class="row mt-3 justify-content-between">
+                <div class="col col-sm-4">
+                    <p> All Right Reseved by Ants Store Copyright 2020.</p>
+                </div>
+                <div class="col-6 col-sm-8 ">
+                    <nav class="nav justify-content-end text-uppercase text-right">
+                        <a class="nav-link pr-0" href="#">jobs</a>
+                        <a class="nav-link pr-0" href="#">developer</a>
+                        <a class="nav-link pr-0" href="#">term</a>
+                        <a class="nav-link pr-0" href="#">Privacy Policy</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper.js -->
+    <script src="js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="js/all.js"></script>
+
+
+    <!-- Option 2: Separate Popper.js and Bootstrap JS
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js" integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
